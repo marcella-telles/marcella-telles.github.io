@@ -159,6 +159,8 @@ img,
     padding: 1rem;
     z-index: 10;
     text-align: center;
+    color: white;
+    font-size: 3rem;
 }
 
 .hero-heading {
