@@ -201,8 +201,9 @@ img,
 .about-page {
     padding: 2rem 1rem 10rem 1rem;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr, 3fr;
     height: 100%;
+    background-color: rgb(220, 159, 176);
 }
 
 .about-text {
@@ -212,11 +213,13 @@ img,
 .about-text h1 {
     font-size: 2rem;
     line-height: 2rem;
+    color: rgb(63, 2, 2);
 }
 
 .about-image img {
     height: 100%;
-    object-fit: cover;
+    object-fit: scale-down;
+    justify-content: center;
 }
 
 .about-social {
@@ -225,7 +228,7 @@ img,
 }
 
 .about-social a {
-    color: black;
+    color: darkred;
     padding: 0 1rem;
 }
 
@@ -243,6 +246,7 @@ img,
 .footer-social a {
     color: black;
     padding: 0 1rem;
+    color: darkred;
 }
 
 /* add media queries for large screens */
