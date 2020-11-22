@@ -249,6 +249,43 @@ img,
     color: darkred;
 }
 
+/* portfolio pix edits*/
+.gallery-page {
+    padding: 0 1rem 10rem 1rem;
+}
+
+.gallery-auto-fit {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+    grid-gap: 0.5rem
+}
+
+.gallery-span {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 300px;
+    grid-gap: 0.5rem;
+    grid-auto-flow: dense;
+}
+
+.gallery-item {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.gallery-img {
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+}
+
+.gallery-img:hover {
+    transform: scale(1.5);
+}
+
+
 /* add media queries for large screens */
 
 @media (min-width: 600px) {
