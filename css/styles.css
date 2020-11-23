@@ -138,7 +138,6 @@ video {
 
 .hero-image-box::after {
     content: "";
-    background-color: rgba(0, 0, 0, 0.4);
     height: 100%;
     width: 100%;
     position: absolute;
