@@ -318,7 +318,7 @@ video {
         line-height: 1.5rem;
     }
     .nav-menu {
-        padding: 0.1 rem;
+        padding: 0 1 rem;
     }
     .nav-item {
         flex: 1 1;
