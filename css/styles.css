@@ -20,7 +20,7 @@ body {
 }
   
 img,
- video {
+video {
     width: 100%;
     height: auto;
     display: block;
@@ -150,6 +150,10 @@ img,
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.hero-video {
+    background-color: rgb(220, 159, 176);
 }
 
 .hero-text-box {
