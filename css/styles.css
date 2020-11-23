@@ -172,12 +172,15 @@ video {
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
+    align-self: center;
+    padding: 1rem;
 }
 
 .hero-text {
     font-size: 1rem;
     margin-top: 0.5rem;
     color: white;
+   padding-bottom: 12rem;
 }
 
 .hero-button {
@@ -315,7 +318,7 @@ video {
         line-height: 1.5rem;
     }
     .nav-menu {
-        padding: 0 1 rem;
+        padding: 0.1 rem;
     }
     .nav-item {
         flex: 1 1;
@@ -323,7 +326,7 @@ video {
     .hero-nav {
         padding-bottom: 1rem;
     }
-    .hero-heading {
+    .hero-text-box-one {
         font-size: 4rem;
         line-height: 4rem;
     }
@@ -349,7 +352,7 @@ video {
     }
 
     .footer-nav{
-        padding-top: 2rem;
+        padding-top: rem;
     }
     .footer-logo {
         flex-basis: 100%;
